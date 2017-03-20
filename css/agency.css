@@ -1,3 +1,18 @@
+header .carousel-holder {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2016 Start Bootstrap
@@ -231,7 +246,7 @@ header {
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
+  -moz-bcarousel-holdercvcxound-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
@@ -534,10 +549,6 @@ section h3.section-subheading {
     padding: 0 100px 20px 20px;
   }
 }
-
-section#team {
-    background-color: #222222;
-}
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -559,7 +570,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.jpg');
+  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
