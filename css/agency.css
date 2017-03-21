@@ -1,6 +1,8 @@
 header .carousel-holder {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;;
+    margin-right: 40px;;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .carousel-control,
